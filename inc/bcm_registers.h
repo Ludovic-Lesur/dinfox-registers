@@ -22,7 +22,7 @@
  * \brief BCM registers map.
  *******************************************************************/
 typedef enum {
-    BCM_REGISTER_ADDRESS_FLAGS_0 = COMMON_REGISTER_ADDRESS_LAST,
+    BCM_REGISTER_ADDRESS_FLAGS_1 = COMMON_REGISTER_ADDRESS_LAST,
     BCM_REGISTER_ADDRESS_CONFIGURATION_0,
     BCM_REGISTER_ADDRESS_CONFIGURATION_1,
     BCM_REGISTER_ADDRESS_STATUS_1,
@@ -36,10 +36,10 @@ typedef enum {
 
 #define BCM_NUMBER_OF_SPECIFIC_REGISTERS                        (BCM_REGISTER_ADDRESS_LAST - COMMON_REGISTER_ADDRESS_LAST)
 
-#define BCM_REGISTER_FLAGS_0_MASK_CEFH                          0x00000001
-#define BCM_REGISTER_FLAGS_0_MASK_CSFH                          0x00000002
-#define BCM_REGISTER_FLAGS_0_MASK_CLFH                          0x00000004
-#define BCM_REGISTER_FLAGS_0_MASK_BKFH                          0x00000008
+#define BCM_REGISTER_FLAGS_1_MASK_CEFH                          0x00000001
+#define BCM_REGISTER_FLAGS_1_MASK_CSFH                          0x00000002
+#define BCM_REGISTER_FLAGS_1_MASK_CLFH                          0x00000004
+#define BCM_REGISTER_FLAGS_1_MASK_BKFH                          0x00000008
 
 #define BCM_REGISTER_CONFIGURATION_0_MASK_CHEN_THRESHOLD        0x0000FFFF
 #define BCM_REGISTER_CONFIGURATION_0_MASK_CHEN_TOGGLE_PERIOD    0x00FF0000
