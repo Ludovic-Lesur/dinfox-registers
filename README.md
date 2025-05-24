@@ -13,6 +13,7 @@ Here is the versions compatibility table:
 
 | **dinfox-registers** | **una-lib** |
 |:---:|:---:|
+| [sw2.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw2.0) | >= [sw2.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw2.2) |
 | [sw1.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw1.0) | >= [sw2.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw2.2) |
 
 # Compilation flags
