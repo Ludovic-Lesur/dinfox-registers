@@ -56,6 +56,7 @@ typedef enum {
 #define BCM_REGISTER_STATUS_1_MASK_CHRGST0                      0x00000030
 #define BCM_REGISTER_STATUS_1_MASK_CHRGST1                      0x000000C0
 #define BCM_REGISTER_STATUS_1_MASK_LVF                          0x00000100
+#define BCM_REGISTER_STATUS_1_MASK_CVF                          0x00000200
 
 #define BCM_REGISTER_CONTROL_1_MASK_BKEN                        0x00000001
 #define BCM_REGISTER_CONTROL_1_MASK_CHMD                        0x00000002
