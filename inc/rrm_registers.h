@@ -50,14 +50,6 @@ typedef enum {
 
 /*** RRM REGISTERS global variables ***/
 
-#ifdef DINFOX_REGISTERS_ACCESS
-extern const UNA_register_access_t RRM_REGISTER_ACCESS[RRM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ACCESS_TIMEOUT
-extern const uint32_t RRM_REGISTER_ACCESS_TIMEOUT_MS[RRM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ERROR_VALUE
-extern const uint32_t RRM_REGISTER_ERROR_VALUE[RRM_REGISTER_ADDRESS_LAST];
-#endif
+extern const UNA_register_t RRM_REGISTER[RRM_REGISTER_ADDRESS_LAST];
 
 #endif /* __RRM_REGISTERS_H__ */

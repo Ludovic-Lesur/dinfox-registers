@@ -66,14 +66,6 @@ typedef enum {
 
 /*** SM REGISTERS global variables ***/
 
-#ifdef DINFOX_REGISTERS_ACCESS
-extern const UNA_register_access_t SM_REGISTER_ACCESS[SM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ACCESS_TIMEOUT
-extern const uint32_t SM_REGISTER_ACCESS_TIMEOUT_MS[SM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ERROR_VALUE
-extern const uint32_t SM_REGISTER_ERROR_VALUE[SM_REGISTER_ADDRESS_LAST];
-#endif
+extern const UNA_register_t SM_REGISTER[SM_REGISTER_ADDRESS_LAST];
 
 #endif /* __SM_REGISTERS_H__ */

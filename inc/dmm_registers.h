@@ -49,14 +49,6 @@ typedef enum {
 
 /*** DMM REGISTERS global variables ***/
 
-#ifdef DINFOX_REGISTERS_ACCESS
-extern const UNA_register_access_t DMM_REGISTER_ACCESS[DMM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ACCESS_TIMEOUT
-extern const uint32_t DMM_REGISTER_ACCESS_TIMEOUT_MS[DMM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ERROR_VALUE
-extern const uint32_t DMM_REGISTER_ERROR_VALUE[DMM_REGISTER_ADDRESS_LAST];
-#endif
+extern const UNA_register_t DMM_REGISTER[DMM_REGISTER_ADDRESS_LAST];
 
 #endif /* __DMM_REGISTERS_H__ */

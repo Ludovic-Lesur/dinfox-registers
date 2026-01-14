@@ -71,14 +71,6 @@ typedef enum {
 
 /*** BCM REGISTERS global variables ***/
 
-#ifdef DINFOX_REGISTERS_ACCESS
-extern const UNA_register_access_t BCM_REGISTER_ACCESS[BCM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ACCESS_TIMEOUT
-extern const uint32_t BCM_REGISTER_ACCESS_TIMEOUT_MS[BCM_REGISTER_ADDRESS_LAST];
-#endif
-#ifdef DINFOX_REGISTERS_ERROR_VALUE
-extern const uint32_t BCM_REGISTER_ERROR_VALUE[BCM_REGISTER_ADDRESS_LAST];
-#endif
+extern const UNA_register_t BCM_REGISTER[BCM_REGISTER_ADDRESS_LAST];
 
 #endif /* __BCM_REGISTERS_H__ */
