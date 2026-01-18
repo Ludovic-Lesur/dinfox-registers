@@ -8,6 +8,8 @@
 #ifndef __COMMON_REGISTERS_H__
 #define __COMMON_REGISTERS_H__
 
+#include "una.h"
+
 /*** COMMON REGISTERS structures ***/
 
 /*!******************************************************************
@@ -70,67 +72,67 @@ typedef enum {
 
 #define COMMON_REGISTER \
     /* NODE_ID */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* HW_VERSION */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* SW_VERSION_0 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* SW_VERSION_1 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* FLAGS_0 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* ERROR_STACK */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* STATUS_0 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
     /* CONTROL_0 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_WRITE, \
-        5000, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        0x00000000 \
-    }, \
+        0x00000000, \
+        5000 \
+    ), \
     /* ANALOG_DATA_0 */ \
-    { \
+    UNA_GENERATE_REGISTER( \
         UNA_REGISTER_ACCESS_READ_ONLY, \
-        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS, \
         UNA_REGISTER_RESET_VALUE_STATIC, \
-        ((UNA_TEMPERATURE_ERROR_VALUE << 16) | (UNA_VOLTAGE_ERROR_VALUE << 0)) \
-    }, \
+        ((UNA_TEMPERATURE_ERROR_VALUE << 16) | (UNA_VOLTAGE_ERROR_VALUE << 0)), \
+        DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS \
+    ), \
 
 #endif /* __COMMON_REGISTERS_H__ */
