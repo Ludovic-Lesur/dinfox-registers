@@ -13,8 +13,9 @@ Here is the versions compatibility table:
 
 | **dinfox-registers** | **una-lib** |
 |:---:|:---:|
-| [sw5.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw5.0) | >= [sw4.0](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.0) |
-| [sw4.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw4.0) | >= [sw4.0](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.0) |
+| [sw6.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw6.0) | >= [sw4.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.2) |
+| [sw5.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw5.0) | [sw4.0](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.0) to [sw4.1](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.1) |
+| [sw4.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw4.0) | [sw4.0](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.0) to [sw4.1](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.1) |
 | [sw3.1](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw3.1) | [sw2.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw2.2) to [sw3.1](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw3.1) |
 | [sw3.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw3.0) | [sw2.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw2.2) to [sw3.1](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw3.1) |
 | [sw2.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw2.0) | [sw2.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw2.2) to [sw3.1](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw3.1) |
