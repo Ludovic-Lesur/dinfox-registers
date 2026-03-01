@@ -53,11 +53,11 @@ typedef enum {
 
 #define GPSM_REGISTER_CONFIGURATION_2_MASK_TP_DUTY_CYCLE        0x000000FF
 
-#define GPSM_REGISTER_STATUS_1_MASK_TFS                         0x00000001
-#define GPSM_REGISTER_STATUS_1_MASK_GFS                         0x00000002
+#define GPSM_REGISTER_STATUS_1_MASK_TFST                        0x00000001
+#define GPSM_REGISTER_STATUS_1_MASK_GFST                        0x00000002
 #define GPSM_REGISTER_STATUS_1_MASK_TPST                        0x00000004
 #define GPSM_REGISTER_STATUS_1_MASK_PWST                        0x00000008
-#define GPSM_REGISTER_STATUS_1_MASK_BKENST                      0x00000030
+#define GPSM_REGISTER_STATUS_1_MASK_BKCS                        0x00000030
 
 #define GPSM_REGISTER_CONTROL_1_MASK_TTRG                       0x00000001
 #define GPSM_REGISTER_CONTROL_1_MASK_GTRG                       0x00000002
@@ -66,8 +66,8 @@ typedef enum {
 #define GPSM_REGISTER_CONTROL_1_MASK_PWEN                       0x00000010
 #define GPSM_REGISTER_CONTROL_1_MASK_BKEN                       0x00000020
 
-#define GPSM_REGISTER_ANALOG_DATA_1_MASK_VGPS                   0x0000FFFF
-#define GPSM_REGISTER_ANALOG_DATA_1_MASK_VANT                   0xFFFF0000
+#define GPSM_REGISTER_ANALOG_DATA_1_MASK_GPS_VOLTAGE            0x0000FFFF
+#define GPSM_REGISTER_ANALOG_DATA_1_MASK_ANTENNA_VOLTAGE        0xFFFF0000
 
 #define GPSM_REGISTER_TIME_DATA_0_MASK_YEAR                     0x00FF0000
 #define GPSM_REGISTER_TIME_DATA_0_MASK_MONTH                    0x00000F00
