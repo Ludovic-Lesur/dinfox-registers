@@ -28,3 +28,20 @@ Here is the versions compatibility table:
 |:---:|:---:|:---:|
 | `DINFOX_REGISTERS_DISABLE_FLAGS_FILE` | `defined` / `undefined` | Disable the `dinfox_registers_flags.h` header file inclusion when compilation flags are given in the project settings or by command line. |
 | `DINFOX_REGISTERS_DEFAULT_TIMEOUT_MS` | `<value>` | Default registers access timeout in milliseconds. |
+
+# Build
+
+A static library can be compiled by command line with `cmake`.
+
+```bash
+mkdir build
+cd build
+cmake -DCMAKE_TOOLCHAIN_FILE="<toolchain_file_path>" \
+      -DTOOLCHAIN_PATH="<arm-none-eabi-gcc_path>" \
+      -DTYPES_PATH="<types_file_path>" \
+      -DUNA_LIB_PATH="<una-lib_path>" \
+      -DEMBEDDED_UTILS_PATH="<embedded-utils_path>" \
+      -DDINFOX_REGISTERS_DEFAULT_TIMEOUT_MS=200 \
+      -G "Unix Makefiles" ..
+make all
+```
