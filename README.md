@@ -13,6 +13,7 @@ Here is the versions compatibility table:
 
 | **dinfox-registers** | **una-lib** |
 |:---:|:---:|
+| [sw7.2](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw7.2) | >= [sw4.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.2) |
 | [sw7.1](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw7.1) | >= [sw4.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.2) |
 | [sw7.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw7.0) | >= [sw4.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.2) |
 | [sw6.0](https://github.com/Ludovic-Lesur/dinfox-registers/releases/tag/sw6.0) | >= [sw4.2](https://github.com/Ludovic-Lesur/una-lib/releases/tag/sw4.2) |
